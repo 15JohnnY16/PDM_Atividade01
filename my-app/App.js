@@ -6,9 +6,7 @@ import Labels from './components/Labels';
 export default function App() {
   const [nome, setNome] = useState('');
   const [telefone, setTelefone] = useState('');
-  const [usuarios, setUsuarios] = useState([
-    { nome: 'João da Silva', telefone: '61 9999-9999' }
-  ]);
+  const [usuarios, setUsuarios] = useState([]);
 
   const adicionarUsuario = () => {
     if (nome && telefone) {
